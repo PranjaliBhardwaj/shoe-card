@@ -1,46 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Item Card </title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Pure CSS Drawing</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap">
 </head>
-
 <body>
-    <div class="item-container">
-        <div class="item-top">
-            <div class="top-left-logo">
-                <img src="./logo.png" alt="">
+    <div class="container">
+        <div class="card">
+            <div class="image">
+                <img src="https://i.imgur.com/lhDhFJU.png" height="150px"/>
             </div>
-            <div class="top-right-cart">
-                <i class="fa-solid fa-cart-shopping"></i>
+            <div class="content">
+                <h2>Nike Air Jordan</h2>
+                <div class="size">
+                    <h3>Size :</h3>
+                    <span>40</span>
+                    <span>41</span>
+                    <span>42</span>
+                    <span>43</span>
+                </div>
+                <div class="color">
+                    <h3>Variation :</h3>
+                    <span></span>
+                    <span></span>
+                    <span><span>
+                </div>
+                <a href="#">Buy Now</a>
             </div>
         </div>
-        <div class="main-item">
-            <img src="./item.png" alt="">
-        </div>
-        <h2 class="item-heading">
-            XRay Jr Dark
-        </h2>
-        <p class="item-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit labore quae quaerat eaque.
-        </p>
-        <ul class="rating">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star-half-stroke"></i>
-        </ul>
-        <p class="item-price"><sup>$</sup>5.00/-</p>
-        <button class="item-cart-btn">Add To Cart</button>
     </div>
-    
 </body>
 </html>
