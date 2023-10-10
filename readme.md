@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pure CSS Drawing</title>
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap">
+    <link rel="stylesheet" href="https://github.com/PranjaliBhardwaj/shoe-card/blob/main/stylesheet">
 </head>
 <body>
     <div class="container">
