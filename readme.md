@@ -1,2 +1,2 @@
 # This is an Nike AIR jordan shoe card
-This is pure HTML nad CSS project 
+This is pure HTML and CSS project.
